@@ -1,0 +1,39 @@
+var map = L.map('map').setView([37.8, -96], 4);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+// Actual UFO encounter data
+var longEncounters = [
+    [29.8830556, -97.9411111],
+    [21.4180556, -157.8036111]
+];
+
+var shortEncounters = [
+    [28.9783333, -96.6458333]
+];
+
+var longHeat = L.heatLayer(longEncounters, {
+    radius: 25,
+    blur: 15,
+    maxZoom: 17,
+    gradient: {0.4: 'blue', 0.65: 'lime', 1: 'red'}
+}).addTo(map);
+
+var shortHeat = L.heatLayer(shortEncounters, {
+    radius: 25,
+    blur: 15,
+    maxZoom: 17,
+    gradient: {0.4: 'yellow', 0.65: 'orange', 1: 'red'}
+}).addTo(map);
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+#map.dark-mode {
+    filter: brightness(0.8);
+}
