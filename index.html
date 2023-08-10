@@ -28,5 +28,27 @@
     
     <!-- Your custom script -->
     <script src="script.js"></script>
+    <!-- The Donation Button -->
+<button id="donateButton">Support</button>
+
+<!-- The Modal (Initially Hidden) -->
+<div id="donateModal" style="display:none;">
+    <p>Support the development of this app by donating. Any amount is appreciated!</p>
+    <p><strong>Venmo:</strong> @YourUsername</p>
+    <p><strong>CashApp:</strong> $YourCashtag</p>
+    <button onclick="closeModal()">Close</button>
+</div>
+
+<script>
+    // JavaScript to handle the modal
+    document.getElementById('donateButton').addEventListener('click', function() {
+        document.getElementById('donateModal').style.display = 'block';
+    });
+
+    function closeModal() {
+        document.getElementById('donateModal').style.display = 'none';
+    }
+</script>
+
 </body>
 </html>

@@ -64,10 +64,15 @@ fetch('scrubbed.csv')
                     fillOpacity: 0.8
                 };
 
-                // Create a circle marker and bind a tooltip with more detailed information
-                let marker = L.circleMarker([latitude, longitude], markerOptions)
-                    .bindTooltip(`Date: ${datetime}<br>City: ${city}<br>State: ${state}<br>Shape: ${shape}<br>Duration: ${duration} seconds<br>Comments: ${comments}`);
-                
+                // Create a circle marker
+                let marker = L.circleMarker([latitude, longitude], markerOptions);
+
+                // Bind a tooltip with basic information
+                marker.bindTooltip(`Date: ${datetime}<br>City: ${city}<br>State: ${state}<br>Shape: ${shape}`);
+
+                // Bind a popup with detailed information
+                marker.bindPopup(`Date: ${datetime}<br>City: ${city}<br>State: ${state}<br>Shape: ${shape}<br>Duration: ${duration} seconds<br>Comments: ${comments}`);
+
                 // Add the marker to the marker cluster group
                 markers.addLayer(marker);
             }

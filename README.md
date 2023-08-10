@@ -25,3 +25,4 @@ This interactive map displays reported UFO encounters across the United States. 
 ---
 
 Enjoy exploring the map and delving into the mysteries of UFO encounters!
+
