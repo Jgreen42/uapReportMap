@@ -13,7 +13,7 @@ When using the data, exercise discretion and enjoy the exploration. I plan to en
 I found an open source data set on kaggle [Link to DataSet on kaggle](https://www.kaggle.com/datasets/NUFORC/ufo-sightings)
 To give proper acknowledgement to the original person whom put it together I believe 
 This dataset was scraped, geolocated, and time standardized from NUFORC data by Sigmond Axel here.[Link to github repo](https://github.com/planetsig/ufo-reports)
-[Link to app](https://uapmap.netlify.app/)
+
 
 This interactive map displays reported UFO encounters across the United States. Users can explore individual reports, view clusters of reports in high-density areas, and switch between day and night modes.
 
