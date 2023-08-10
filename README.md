@@ -1,5 +1,5 @@
 # UFO Encounters Map
-[preview the app here!](https://uapmap.netlify.app/)
+
 I developed this project over a span of several days and encountered numerous challenges, even with the assistance of GPT-4. The journey involved experimenting with various plugins, meticulously reviewing the code, and refining it for optimal performance. I strongly recommend using the scrubbed version of the dataset and hosting it locally within your application. This approach simplifies the process, as working with the dataset externally proved to be quite demanding. I'll be creating a separate README.md detailing the entire development process.
 
 I'm genuinely proud of this creation. My fascination with the unknown dates back to my childhood, particularly with shows like "The X-Files." As kids, the mere sound of its theme song would send us into a frenzy, urging someone to switch it off immediately.
@@ -7,6 +7,8 @@ I'm genuinely proud of this creation. My fascination with the unknown dates back
 The advancements in technology, especially tools like GPT, have been instrumental in keeping me engaged with coding and understanding various procedures. It's essential to keep learning, practice regularly, and maintain a balanced approach. Recognize your strengths and areas of improvement. Currently, I work over 10 hours a day, six days a week. Engaging in projects like this serves as a therapeutic escape for me.
 
 When using the data, exercise discretion and enjoy the exploration. I plan to enhance the mobile experience, especially regarding the display of encounter descriptions, which currently only appear on hover. Additionally, I aim to introduce a more user-friendly map tile for the night mode, an instructional key, and possibly a pop-up guide. Simplicity is key!
+
+[preview the app here](https://www.uapmap.netlify.app/)
 
 I found an open source data set on kaggle [Link to DataSet on kaggle](https://www.kaggle.com/datasets/NUFORC/ufo-sightings)
 To give proper acknowledgement to the original person whom put it together I believe 
