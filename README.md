@@ -1,5 +1,5 @@
 # UFO Encounters Map
-[preview the app here!](uapmap.netlify.app)
+[preview the app here!](https://uapmap.netlify.app/)
 I developed this project over a span of several days and encountered numerous challenges, even with the assistance of GPT-4. The journey involved experimenting with various plugins, meticulously reviewing the code, and refining it for optimal performance. I strongly recommend using the scrubbed version of the dataset and hosting it locally within your application. This approach simplifies the process, as working with the dataset externally proved to be quite demanding. I'll be creating a separate README.md detailing the entire development process.
 
 I'm genuinely proud of this creation. My fascination with the unknown dates back to my childhood, particularly with shows like "The X-Files." As kids, the mere sound of its theme song would send us into a frenzy, urging someone to switch it off immediately.
