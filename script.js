@@ -81,3 +81,11 @@ fetch('scrubbed.csv')
         // Add the marker cluster group to the map
         map.addLayer(markers);
     });
+
+    // closes intro loading screen
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById('closeIntro').addEventListener('click', function() {
+            document.getElementById('introScreen').style.display = 'none';
+        });
+    });
+    

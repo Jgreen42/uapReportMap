@@ -28,27 +28,18 @@
     
     <!-- Your custom script -->
     <script src="script.js"></script>
-    <!-- The Donation Button -->
-<button id="donateButton">Support</button>
-
-<!-- The Modal (Initially Hidden) -->
-<div id="donateModal" style="display:none;">
-    <p>Support the development of this app by donating. Any amount is appreciated!</p>
-    <p><strong>Venmo:</strong> @YourUsername</p>
-    <p><strong>CashApp:</strong> $YourCashtag</p>
-    <button onclick="closeModal()">Close</button>
-</div>
-
-<script>
-    // JavaScript to handle the modal
-    document.getElementById('donateButton').addEventListener('click', function() {
-        document.getElementById('donateModal').style.display = 'block';
-    });
-
-    function closeModal() {
-        document.getElementById('donateModal').style.display = 'none';
-    }
-</script>
-
-</body>
+    <div id="introScreen" class="intro-screen">
+        <div class="animation-container">
+            <span class="alien-emoji">👽</span>
+            <span class="alien-emoji">👽</span>
+            <span class="alien-emoji">👽</span>
+        </div>
+        
+        <h2>Welcome to the UAP/UFO Encounters Map!</h2>
+        <h4>data going back to the 20th century</h4>
+        <h3>Hover over the markers to see details of each encounter.</h3>
+        <button id="closeIntro">Start Exploring</button>
+    </div>
+    
+    </body>
 </html>
